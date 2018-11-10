@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+.page{
+    width: 90%;
+    margin: auto;
+    max-width: 900px;
+}
+.header{
+    margin-top: 100px;
+    position: relative;
+}
+.header h1{
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 70px;
+    font-weight: 700;
+}
+.creative h3{
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    top: 43px;
+    left: 35%;
+    right: 35%
+
+}
+.box{
+    display: inline-block;
+    margin-top: 5px;
+    position: relative;
+}
+.border-left{
+    width: 55px;
+    position: absolute;
+    border-bottom: 1px solid #ccc;
+    top: 12px;
+    left: -60px;
+}
+.border-right{
+    width: 55px;
+    position: absolute;
+    border-bottom: 1px solid #ccc;
+    top: 12px;
+    right: -60px;
+}
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+  
+  .topnav a {
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .topnav a.active {
+    border-bottom: 1px solid black;
+  }
